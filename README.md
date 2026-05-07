@@ -2,8 +2,6 @@
 
 This repository contains our implementation of POISE for image generation.
 
-We focus on a single reward signal: **ImageReward**.
-
 ## What This Project Does
 
 - Trains Flow Matching models with Comparative Policy Optimization.
@@ -32,6 +30,3 @@ python scripts/train_sd3_cpo.py --config=config/cpo.py
 - `dataset/`: dataset files and preprocessing scripts
 - `scripts/`: training entry points
 
-## Scope
-
-This codebase is for our Flow Matching CPO experiments with ImageReward only.
