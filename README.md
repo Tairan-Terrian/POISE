@@ -10,19 +10,6 @@ We focus on a single reward signal: **ImageReward**.
 - Uses ImageReward as the only reward function.
 - Supports the training pipeline, dataset handling, and evaluation code needed for our experiments.
 
-## Environment Setup
-
-We recommend Python 3.10 or later.
-
-```bash
-pip install -e .
-```
-
-For development dependencies:
-
-```bash
-pip install -e .[dev]
-```
 
 ## Data
 
